@@ -126,9 +126,9 @@ void randomSkill(int randomNum) {
   }
   else if (randomNum == 5)
   {
-    Keyboard.press(KEY_PAGE_UP); // 에버 누름
+    Keyboard.press('5'); 
     delay(random(50, 100));
-    Keyboard.release(KEY_PAGE_UP); // 에버 땜
+    Keyboard.release('5');
     delay(random(900,1000));
   }
 
