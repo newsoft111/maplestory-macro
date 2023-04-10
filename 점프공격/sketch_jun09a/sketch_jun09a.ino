@@ -21,7 +21,6 @@ void loop() {
   attack();
   attack();
   attack();
-  attack();
 
 
   Keyboard.release(KEY_RIGHT_ARROW); // 오른쪽 방향키 땜
@@ -29,8 +28,6 @@ void loop() {
   
   Keyboard.press(KEY_LEFT_ARROW); // 왼쪽 방향키 누름
   delay(random(250, 300));
-  
-  attack();
   
   attack();
   attack();
