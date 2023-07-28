@@ -52,12 +52,13 @@ void loop() {
       delay(random(50, 70));
 
       Keyboard.release(KEY_PAGE_DOWN); // 로프 땜
-      delay(random(100, 150));
+      delay(random(400, 550));
 
-      randomSkill(NumberArray[i]);
+      
       
       attack();
       attack();
+      randomSkill(NumberArray[i]);
       attack();
       attack();
 
